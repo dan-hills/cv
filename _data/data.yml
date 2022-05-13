@@ -1,63 +1,56 @@
-name: John Doe
+name: Dan Hills
 support_dark_mode: true
-fork: true
+fork: false
 
 # Sidebar
 contact:
-  email: info@johndoe.com
-  github: johndoe
-  linkedin: johndoe
-  phone: 
-  gitlab: 
-  twitter: 
-
-languages:
-  - idiom: English
-  - idiom: Russian
-  - idiom: French
-
-education:
-  - degree: MSc in Informatics
-    time: 2014-2016
-    university: Ionian University
-
-  - degree: BSc in Computer Science
-    time: 2010-2014
-    university: Ionian University
+  email: code@danhills.info
+  github: dan-hills
+  linkedin: danielhillsnyc
 
 skills:
-  - category: Backend
+  - category: Scripting
     skill: 
-      - Go
-      - Rust
-  - category: Frontend
-    skill:
-      - React
-      - Typescript
+      - Powershell
+      - Python
   - category: DevOps
     skill:
+      - ansible
+      - Puppet
+      - Terraform
+      - Packer
       - Docker
       - Kubernetes 
 
 # Profile
 profile: |
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-  fugiat nulla pariatur.
+  As an experienced technical engineer from a variety of fast-paced business environments, 
+  I have been able to continually manage all customer concerns in an efficient, timely, and 
+  thorough manner.  As a technician and an administrator with an unceasing interest in technology 
+  and trends, I always strive to absorb as much knowledge as may be useful to my environment 
+  while also expanding my skill sets in areas that may assist my team to grow and operate more 
+  effectively and efficiently.
 
 # Experience
 experience:
-  - role: Software Engineer
-    time: 2020-Present
-    company: Google
+  - role: Senior System Engineer
+    time: 2017-Present
+    company: Rockstar Games
     details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-      fugiat nulla pariatur.
+•	Formulated an internal repository of automated Powershell scripts and collected modules using well documented, best practice guidelines which analyzes and reports on system standards, compliance policies and which maintains a desired system configuration across a variety of servers, services, and APIs
+•	Developed a library of Ansible playbooks and internally written ansible roles/modules which have been designed to assist with managing internal infrastructure and which performs desired state configuration for internal servers
+•	Automated vSphere server deployment templates using HashiCorp Packer, chocolatey and ansible
+•	Engineered and deployed the highly-available orchestration platform Rundeck to assist with managing and scheduling all internal scripts and Ansible playbooks using a centrally-managed platform
+•	Instituted new code pipelines using Jenkins, Perforce, and Github for managing CI/CD policies in IT code bases
+•	Researched and deployed a code repository system on ProGet which is utilized by internal development teams for better managing and sharing their internally packaged software and tools
+•	Quickly managed virtual device deployment of all employee workstations using VMware Horizon View
+•	Assisted in an automated migration process to transition the internal ticketing system to ServiceNow
+•	Configured a deployment service used on all ESX hosts combining vSphere AutoDeploy and HostProfiles
+•	Planned and scripted a disaster recovery failover mechanism for maintaining availability during failure of the primary datacenter using code targeting Pure FlashArray SANs, vSphere, Rubrik, ServiceNow and Slack APIs
+•	Designed and deployed Group Policy Objects where necessary to assign desired computer and user policies
+•	Monitored all high priority services and tools and assisted in remediation during service outages
+•	Organized internal code sharing sessions in Powershell, Python and Ansible for expanding team knowledge
+
     technologies_used: | 
       Go, Angular, Typescript, C++
   
@@ -71,38 +64,4 @@ experience:
       Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
       fugiat nulla pariatur.
     technologies_used: | 
-      Python, Tensorflow, Keras, Matlab
-
-publications:
-  - title: Random title of paper. An interesting one.
-    link: "#"
-    authors: John E. Doe
-    conference: Some conference, 2016
-
-  - title: Second title of paper. An interesting one too.
-    link: "#"
-    authors: John E. Doe
-    conference: Some conference again, 2018
-
-projects:
-  - title: Cool Project 
-    link: #
-    details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua.
-
-  - title: Cool Project 
-    link: #
-    details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua.
-
-# Volunteering
-volunteering:
-  - time: 2020-Present
-    role: PR Manager
-    company: Some random organization
-    details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+      Powershell, Python, Ansible, Packer, Terraform, Pulumi, Chocolatey, ProGet, Github Enterprise, Perforce, Splunk, Microsoft SCCM, Palo Alto, Rubrik, Jenkins, Rancher, Gitlab, vCenter, VMWare Horizon View, Pure FlashBlade, Pure FlashArray, Nutanix AHV
